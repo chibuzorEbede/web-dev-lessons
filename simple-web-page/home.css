@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-side {
+  width: 50%;
+}
+
+.right-side {
+  width: 50%;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}

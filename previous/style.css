@@ -1,0 +1,25 @@
+div {
+  color: purple;
+}
+
+h3 {
+  color: red;
+}
+
+.div1 {
+  color: darkseagreen;
+  border: 2px solid blueviolet;
+  margin: 10px;
+  border: 2px solid orange;
+  padding: 20px;
+}
+
+.div2 {
+  color: gold;
+  margin: 10px;
+  border: 2px solid green;
+}
+
+p {
+  color: brown;
+}
