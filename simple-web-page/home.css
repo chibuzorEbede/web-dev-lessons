@@ -1,6 +1,8 @@
 body {
   display: flex;
   flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 .left-side {
@@ -14,4 +16,55 @@ body {
 .nav-links {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+a {
+  color: black;
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.shop-links,
+.account-links {
+  display: flex;
+  gap: 10px;
+}
+
+.text-body {
+  margin-top: 80px;
+}
+.main-text {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 38px;
+}
+.sub-text {
+  margin-top: -24px;
+}
+
+.footer {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.img-text {
+  color: white;
+  background-color: white;
 }
