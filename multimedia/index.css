@@ -1,0 +1,21 @@
+.mp3-player {
+  border: 1px solid red;
+}
+
+.video-player {
+  width: 500px;
+  border: 2px green;
+  /* border-radius: 50px; */
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: red;
+}
+.circle:hover {
+  transform: scaleX(1);
+  transition: all;
+  background-color: blue;
+}

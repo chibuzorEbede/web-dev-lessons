@@ -1,8 +1,8 @@
 body {
   display: flex;
   flex-direction: row;
-  font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  font-family: "Montserrat";
 }
 
 .left-side {
@@ -39,6 +39,7 @@ a {
   font-size: 40px;
   font-weight: 900;
   line-height: 38px;
+  font-family: "Bitcount Prop Double Ink", sans-serif;
 }
 .sub-text {
   margin-top: -24px;
@@ -67,4 +68,9 @@ a {
 .img-text {
   color: white;
   background-color: white;
+}
+
+.sparkling-class {
+  color: violet;
+  font-family: "Bitcount Prop Double Ink";
 }
