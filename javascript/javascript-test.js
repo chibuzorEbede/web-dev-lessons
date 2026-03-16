@@ -11,3 +11,7 @@ byebutton.addEventListener("click", () => {
   alert("bye");
   console.log("test bye");
 });
+
+// data types
+
+// objects
