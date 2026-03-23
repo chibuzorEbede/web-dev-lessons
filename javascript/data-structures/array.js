@@ -95,7 +95,41 @@ let sortedItemArray = [...itemsArray];
 console.log("unsorted", itemsArray);
 console.log("sorted", sortedItemArray.sort());
 
-// other
-// find
-// indexOf
-// at
+let a1 = {
+  color: "blue",
+  name: "car",
+};
+
+let a2 = {
+  color: "red",
+  name: "bus",
+};
+
+let a3 = {
+  name: "motorcycle",
+  color: "pink",
+};
+
+// array methods
+const arrayOfNames1 = ["james", "john", "esther"];
+const arrayOfNames2 = [a1, a2, a3];
+const unsorte1 = [1, 3, 5, 62, 6, 7, 3];
+
+console.log(arrayOfNames1.find((item) => item === "paul"));
+console.log(arrayOfNames2.find((item) => item.color === "red"));
+console.log("sorted without function", unsorte1.sort());
+console.log(
+  "sorted with functions",
+  unsorte1.sort((a, b) => a - b),
+);
+
+let fruits = ["banana", "apple", "tomato", "banana", "apple", "tomato"];
+// shift
+console.log("shifted", fruits.shift());
+console.log("shifted", fruits.unshift("potato"));
+console.log("fruits array", fruits);
+
+// filter
+console.log(fruits.filter((el) => el === "tomato"));
+// forEach
+fruits.forEach((item) => console.log(item));
