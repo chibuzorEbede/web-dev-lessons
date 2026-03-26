@@ -3,6 +3,9 @@ Control
 --
 if 
 else
+
+  // loops or looping
+for
 do
 while
 -
@@ -79,3 +82,44 @@ console.log("player1", player1);
 console.log("player2", player2);
 
 // use conditionals to make a simple quiz game
+const john1 = {
+  name: "john",
+  age: 20,
+};
+const peter2 = {
+  name: "john",
+  age: 10,
+};
+const john3 = {
+  name: "john",
+  age: 20,
+};
+const peter4 = {
+  name: "john",
+  age: 10,
+};
+const john = {
+  name: "john",
+  age: 20,
+};
+const peter = {
+  name: "john",
+  age: 10,
+};
+
+let peopleArray = [john, peter, john1, john3, peter2, peter4, "jane"];
+console.log("the people array length", peopleArray.length);
+
+// for (initializer ; condition; increment;)
+for (let yes = 0; yes < 100; yes += 1) {
+  console.log("the value of p is ", p);
+  console.log("i am looping...");
+}
+
+let highestPoint = 1;
+let score = 2;
+
+do {
+  console.log("your curent score is", score);
+  score = score + 1;
+} while (score < highestPoint);
