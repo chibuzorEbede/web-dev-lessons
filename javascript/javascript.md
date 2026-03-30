@@ -5,3 +5,4 @@
 3. Control Statements
 4. Functions
 5. Data Structures
+6. Classes

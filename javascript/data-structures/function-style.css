@@ -1,0 +1,13 @@
+.box1,
+.box2 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.moveBox {
+  background-color: blue;
+  transform: translateY(200px);
+}

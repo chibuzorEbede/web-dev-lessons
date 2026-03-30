@@ -9,6 +9,7 @@ let luckyYou = {
 // always check that the condition will end
 // && - and operator
 // || - or operator
+// ?? - nullish coalescing operator
 
 for (let n = 0; n < luckyNumbers.length - 1; n = n + 1) {
   if (luckyNumbers[n] % 2 !== 0 && luckyNumbers[n] === 3) {
