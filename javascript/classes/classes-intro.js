@@ -107,7 +107,30 @@ console.log("ref", johnRef);
 // it also should have children classes - hybrid, electric, petrol
 
 // polymorphism
+class Cars {
+  constructor(numberOfWheel, CarType, enginePower) {
+    this.numberOfWheel = numberOfWheel;
+    this.CarType = CarType;
+    this.enginePower = enginePower;
+  }
 
-// encapsulation -
+  refuelCar(CarType) {
+    return `we are fuelling ${this.CarType}`;
+  }
+}
+
+// hybrid car can either use battery or petrol
+class hybrid extends Cars {}
+
+// we want to run it with only petrol
+class petrol extends Cars {}
+
+// encapsulation
 
 // abstraction
+
+// abstraction & encapsulation
+
+// player
+// dice
+// score
