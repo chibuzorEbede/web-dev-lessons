@@ -1,0 +1,80 @@
+:root {
+  --custom-box-shadow: #0e0e0e 2px 2px 6px;
+  --fancy-background: #0e0e0e;
+  --custom-radius: 16px;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+
+  background-color: var(--fancy-background);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+}
+
+.main-app {
+  /* background-color: blueviolet; */
+  /* direction, color-start, color-stop, color2-start, color2-stop */
+  background: linear-gradient(20deg, blueviolet, purple);
+  width: 400px;
+  min-height: 600px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.user-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: center;
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+}
+.user-dp {
+  /* position: relative; */
+  width: 70px;
+  height: 70px;
+  border-radius: var(--custom-radius);
+  box-shadow: var(--custom-box-shadow);
+}
+
+.greeting {
+  line-height: 6%;
+}
+
+.greeting-message {
+  font-weight: 300;
+  font-size: 24px;
+}
+.user-name {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+/* search bar */
+
+.search-section {
+}
+
+.search-bar {
+  border-radius: var(--custom-radius);
+  background-color: #ededed;
+  padding: 10px;
+  box-shadow: var(--custom-box-shadow);
+}
