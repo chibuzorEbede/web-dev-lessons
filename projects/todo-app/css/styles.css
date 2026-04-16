@@ -2,6 +2,7 @@
   --custom-box-shadow: #0e0e0e 2px 2px 6px;
   --fancy-background: #0e0e0e;
   --custom-radius: 16px;
+  --custom-spacing-y: 16px;
 }
 body {
   font-family: "Nunito Sans", sans-serif;
@@ -70,6 +71,7 @@ body {
 /* search bar */
 
 .search-section {
+  margin-top: var(--custom-spacing-y);
 }
 
 .search-bar {
@@ -77,4 +79,44 @@ body {
   background-color: #ededed;
   padding: 10px;
   box-shadow: var(--custom-box-shadow);
+  color: gray;
+}
+
+/* category */
+
+.category-title {
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.category {
+  background-color: orangered;
+  color: white;
+  width: 100px;
+  padding: 10px;
+  border-radius: var(--custom-radius);
+  box-shadow: var(--custom-box-shadow);
+  cursor: pointer;
+}
+
+.add-category {
+  font-size: 32px;
+  font-weight: 600;
+  display: block;
+}
+.list-title {
+  font-size: 24px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+}
+
+.category-list {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
 }
